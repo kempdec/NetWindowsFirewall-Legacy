@@ -9,26 +9,11 @@ A biblioteca COM `NetFwTypeLib` é usada para gerenciar o Firewall do Windows pe
 
 ## Instalação
 
-1. Instale a biblioteca a partir do NuGet.
+Instale a biblioteca a partir do NuGet.
 
 ``` powershell
 Install-Package KempDec.NetWindowsFirewall.Legacy
 ```
-
-2. Altere o **"SO de Destino"** do seu projeto para `Windows`.
-
-Para alterar pelo **Visual Studio**, clique com o botão direito no seu projeto e vá em **Propriedades (Alt + Enter)**.
-  ![SO de Destino no Visual Studio](assets/target-os.png)
-
-
-Para alterar por código, abra o arquivo com extensão `.csproj` do seu projeto e adicione `-windows` após a versão do
-framework, dentro da tag `<TargetFramework/>`. Exemplo:
-  ``` xml
-  <!-- Antes. -->
-  <TargetFramework>net8.0</TargetFramework>
-  <!-- Depois. -->
-  <TargetFramework>net8.0-windows</TargetFramework>
-  ```
 
 ## Como usar
 
