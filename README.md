@@ -1,15 +1,18 @@
-# NetWindowsFirewall
+# NetWindowsFirewall Legacy
 
-NetWindowsFirewall é uma micro biblioetca com métodos auxiliares para gerenciar o Firewall do Windows.
+NetWindowsFirewall Legacy é uma micro biblioetca com métodos auxiliares para gerenciar o Firewall do Windows para
+.NET Framework 4.8.
 
 A biblioteca COM `NetFwTypeLib` é usada para gerenciar o Firewall do Windows pelo **NetWindowsFirewall**.
+
+[**Veja NetWindowsFirewall para .NET 8 ou superior**](https://github.com/kempdec/NetWindowsFirewall)
 
 ## Instalação
 
 1. Instale a biblioteca a partir do NuGet.
 
 ``` powershell
-Install-Package KempDec.NetWindowsFirewall
+Install-Package KempDec.NetWindowsFirewall.Legacy
 ```
 
 2. Altere o **"SO de Destino"** do seu projeto para `Windows`.
